@@ -1,0 +1,90 @@
+.container {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.center {
+    width: 85%;
+    margin-top: 30px;
+}
+
+.center .header {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 17px;
+}
+
+.instaLogo{
+    width: 100%;
+    height: 175px;
+}
+
+.center .inputElement {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 37px 0px 37px;
+}
+
+.form {
+    max-width: 950px;
+    width: 100%;
+    margin: auto;
+}
+
+.form form {
+    width: 100%;
+}
+
+.form form .inputText {
+    width: 100%;
+    padding: 8px;
+    outline: none;
+    font-size: 12px;
+    margin-top: 10px;
+    border: 1px solid gray;
+}
+
+.inputButton {
+    background-color: rgb(0, 149, 246);
+    color: white;
+    font-size: 12px;
+    padding: 8px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+    width: 100%;
+    border: none;
+    opacity: 0.8;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.forgetPassword, .a {
+    margin: auto;
+    color: black;
+    font-size: 16px;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.footer {
+    width: 90%;
+    text-align: center;
+    margin-top: 55px;
+}
+
+.getApps {
+    margin-top: 70px;
+}
+
+.getApp {
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 16px;
+}
